@@ -1,0 +1,49 @@
+
+
+.apresentacao{
+    text-align: center;
+    color: white;
+    
+    
+}
+body{
+    background: radial-gradient( rgb(125, 20, 121),rgb(148, 91, 201));
+}
+#nome{
+    font-family: monospace, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(29, 4, 28, 0.831) ;
+}
+#foto{
+    
+    border-radius: 200px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgb(66, 9, 64);
+}
+#sobre{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgb(152, 21, 148) ;
+    box-shadow: 1px 3px 5px rgba(66, 9, 64, 0.585);
+    border-radius: 100px;
+    margin: 50px;
+    padding: 30px;
+
+
+}
+
+.navbar li a{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    width: 50px;  
+    padding: 20px; 
+    color: white;
+    background-color: rgba(173, 21, 145, 0.528);
+    border-radius: 10px;
+    border: 1px solid rgb(152, 21, 148) ;
+}
